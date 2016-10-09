@@ -1,0 +1,60 @@
+form label {
+	color: #181828;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 4px;
+	-webkit-transition: color .2 ease;
+	transition: color .2 ease;
+}
+
+input{
+	box-sizing: border-box;
+}
+
+.flo-input{
+	background: #fff;
+	border: none;
+	border-radius: 2px;
+	box-shadow: inset 0 0 0 1px #d9d9d9,inset 0 1px 3px rgba(0,0,0,.15);
+	color: #181828;
+	font-size: 18px;
+	padding: 8px 12px 7px;
+	margin-bottom: 16px;
+	-webkit-transition: box-shadow .15s ease,background .15s ease;
+	transition: box-shadow .15s ease,background .15s ease;
+	width: 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	vertical-align: middle;
+	&:hover{
+		box-shadow: inset 0 0 0 1px #b3b3b3,0 1px 2px rgba(0,0,0,.15);
+	}
+	&:focus{
+		box-shadow: inset 0 0 0 1px #018ed5,0 1px 2px rgba(0,0,0,.15);
+		outline: 0;
+	}
+}
+
+.flo-message-error, .flo-message-success{
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 8px 16px;
+}
+
+.flo-message-sucess{
+	-webkit-animation: fadeIn .5s cubic-bezier(.1,.5,.15,1);
+	animation: fadeIn .5s cubic-bezier(.1,.5,.15,1);
+	background: rgba(85,160,3,.1);
+	color: #55a003;
+	display: inline-block;
+}
+
+.flo-message-error{
+	-webkit-animation: fadeIn .5s cubic-bezier(.1,.5,.15,1);
+	animation: fadeIn .5s cubic-bezier(.1,.5,.15,1);
+	background: rgba(221,45,24,.1);
+	color: #dd2d18;
+	display: inline-block;
+}

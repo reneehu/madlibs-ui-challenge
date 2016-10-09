@@ -2,7 +2,8 @@
 require('normalize.css/normalize.css');
 // this file is where styles should go
 require('styles/App.css');
-require('styles/App.scss');
+//require('styles/App.scss');
+require('styles/App.less');
 
 // Flocabulary uses React extensively. This exercise is built with it
 // but it is not required knowledge. Ideally, you will not have to

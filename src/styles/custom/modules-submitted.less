@@ -1,0 +1,37 @@
+.submitted-madlib-container{
+
+	button.back-button{
+		.flo-button-primary;
+	}
+
+	.submitted-madlib{
+		padding: 15px;
+		.madlib-line{
+			.flo-typography-small;
+			color:@color-text-light;
+			display: inline-block; //to prevent span text overlapping each other on small screen
+
+			.user-submitted-value{
+				color: @color-goodGreen;
+			}
+
+		}
+	}
+
+}
+
+
+  // Medium or larger screens
+  @media only screen and (min-width: 40.063em) { 
+  	.submitted-madlib-container{
+
+  		.submitted-madlib{
+  			.madlib-line{
+  				.flo-typography-base;
+			    display: block;
+			}
+		}
+
+	}
+}
+

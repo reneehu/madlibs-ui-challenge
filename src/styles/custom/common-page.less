@@ -1,0 +1,67 @@
+/*Basic reponsive layout
+  Media Queries: mobile first;
+  Medium screens: min-width 641px;
+  Large screens: min-width 1025px;
+  */
+
+  *{
+  	text-align: center;
+  }
+
+  body{
+  	background:url(https://static.flocabulary.com/static/packed/homebg5.e838e0a102ae.jpg) top fixed no-repeat;
+  	background-size: cover; 
+  	background-color: @color-depth2-background; //fallback color
+  	margin: 0 auto;
+  }
+
+  #app{
+  	max-width:@width-contentArea;
+  	max-height: @layout-bodyMainHeight;
+  	margin: 0 auto;
+  }
+
+  .main{
+  	background-color: @color-depth2-background;
+  	border-radius: 5px;
+  	box-shadow: inset 0 0 0 1px #d9d9d9,inset 0 1px 3px rgba(0,0,0,.15);
+  	margin: 25px;
+  }
+
+  h1{
+  	.flo-typography-large;
+  	color: @color-active;
+  	padding-top: 10px;
+  	margin: 0;
+  }
+
+  h2{
+  	.flo-typography-small;
+  	color:@color-text-light;
+  	font-weight: normal;
+  	margin-top: 3px;
+  }
+
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { 
+	.main{
+		margin: 30px;
+	}
+
+	h1{
+		.flo-typography-larger;
+	}
+
+	h2{
+		.flo-typography-base;
+	}
+
+}
+
+// Large screens
+@media only screen and (min-width: 64.063em) { 
+	body{
+		max-width:@width-fullPage;
+	}
+}
