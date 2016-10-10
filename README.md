@@ -5,7 +5,7 @@ I have created two folders:
 
 2.custom: styles that I added for the project.
 
-All new less files are included in App.less
+All new less files are included in `App.less`. Meida Queries are used to adjust some styles badsed on screen size (mobile, tablet and larger screens). `transition` is used on form input field when it expands, `animation` have been used for the main container&form fade-in and the form error msg animation. Flex box is used for positioning the madlib form elements, 
 
 ## Thank you for accepting Flocabulary's UI/UX/CSS challenge!
 
