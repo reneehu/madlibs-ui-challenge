@@ -1,3 +1,9 @@
+## Just a bit documentaion of the style folder structure :smile:
+I have created two folder:
+1.styleguide: styles that were taken from flocabulary style guide 
+2.custom: styles that I added for the project
+all new less files are included in App.less
+
 ## Thank you for accepting Flocabulary's UI/UX/CSS challenge!
 
 At Flocabulary, we strive to provide rich educational materials that are also elegant, intuitive
